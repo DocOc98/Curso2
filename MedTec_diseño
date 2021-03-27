@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T19:45:21.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Safari/537.36" etag="Bt0IeIzxB4nJigcx6oaA" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-27T20:18:37.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Safari/537.36" etag="Q2yxrFxXiznbiF_IF2w3" version="14.5.3" type="github">
   <diagram id="5omv4xwLUyxNR-7Q0eVF" name="Page-1">
     <mxGraphModel dx="1038" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
         <mxCell id="ZUKpcXbptRefoFMIwci9-41" value="¿Como puedo pedir un sistema a medida?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="18" y="815" width="277" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZUKpcXbptRefoFMIwci9-42" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 10px;&quot;&gt;Trabajamos en conjunto con especialistas del campo y nos aseguramos de hacer un sistema amigable con el usuario&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="ZUKpcXbptRefoFMIwci9-42" value="&lt;font color=&quot;#000000&quot;&gt;Los datos que almacenamos siempre se encuentra&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="630" y="276" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
