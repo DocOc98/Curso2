@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T20:18:37.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Safari/537.36" etag="Q2yxrFxXiznbiF_IF2w3" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-27T20:26:00.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Safari/537.36" etag="xGYACzImui40eBgB7O9P" version="14.5.3" type="github">
   <diagram id="5omv4xwLUyxNR-7Q0eVF" name="Page-1">
     <mxGraphModel dx="1038" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,8 @@
         <mxCell id="ku3CSHHMTS7imJJLREbo-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry y="80" width="820" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ku3CSHHMTS7imJJLREbo-16" value="&lt;h1&gt;¿Quienes Somos?&lt;/h1&gt;&lt;p&gt;Somos una empresa especializada en el desarrollo, distribución, venta y almacenamiento de software y productos informáticos para uso médico, También brindamos un repositorio a los datos de&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="85" width="480" height="100" as="geometry" />
+        <mxCell id="ku3CSHHMTS7imJJLREbo-16" value="&lt;h1&gt;¿Quienes Somos?&lt;/h1&gt;&lt;p&gt;Somos una empresa especializada en el desarrollo, distribución, venta y almacenamiento de software y productos informáticos para uso médico, También brindamos un repositorio a los datos de pacientes, como también podemos realizar software a medida de nuestros clientes.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="85" width="530" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ku3CSHHMTS7imJJLREbo-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry y="190" width="820" height="160" as="geometry" />
@@ -160,7 +160,7 @@
         <mxCell id="ZUKpcXbptRefoFMIwci9-30" value="&lt;font color=&quot;#000000&quot;&gt;Nuestra empresa cuenta&amp;nbsp;con el cumplimiento de estándares&amp;nbsp;internacionales&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="250" y="276" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZUKpcXbptRefoFMIwci9-31" value="&lt;font color=&quot;#000000&quot;&gt;Los datos que almacenamos siempre se encuentra&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="ZUKpcXbptRefoFMIwci9-31" value="&lt;font color=&quot;#000000&quot;&gt;Los datos que almacenamos siempre se encuentra a disposición&amp;nbsp;de nuestros clientes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="440" y="280" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZUKpcXbptRefoFMIwci9-38" value="¿Puedo utilizar mi software en mi celular?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
@@ -175,7 +175,7 @@
         <mxCell id="ZUKpcXbptRefoFMIwci9-41" value="¿Como puedo pedir un sistema a medida?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="18" y="815" width="277" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZUKpcXbptRefoFMIwci9-42" value="&lt;font color=&quot;#000000&quot;&gt;Los datos que almacenamos siempre se encuentra&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="ZUKpcXbptRefoFMIwci9-42" value="&lt;font color=&quot;#000000&quot;&gt;Trabajamos en conjunto con especialistas&amp;nbsp; que permiten la creación&amp;nbsp;de software amigable con el usuario&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="630" y="276" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
