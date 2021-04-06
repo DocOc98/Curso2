@@ -23,6 +23,7 @@ header button{
 }
 
 .aboutus{
+    padding: 10px;
     background-color: #FFF2CC;
 }
 h2 a{
@@ -34,6 +35,7 @@ h2 a{
 }
 
 .whychooseus{
+    padding: 10px;
     background-color: #DAE8FC;
 }
 
@@ -43,6 +45,7 @@ h2 a{
 }
 
 .services{
+    padding: 10px;
     background-color: #ffffff;
 }
 
@@ -60,17 +63,17 @@ h2 a{
 }
 
 .usualquestions{
+    padding: 10px;
     background-color: #B1DDF0;
 }
 .uquestion{
     width: 97%;
     background-color: white;
-    border: black;
+    border: 1px solid black;
     cursor: pointer;
     padding: 18px;
     width: 97%;
     text-align: left;
-    border: none;
     margin-left: 20px;
 }
 .uanswer{
