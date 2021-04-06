@@ -1,0 +1,100 @@
+header{
+    background-color: #1EB6FF;
+    display: block;
+    padding: 30px;
+}
+header h1{
+    color:#ffffff;
+    display: inline;
+    text-align: left;
+}
+header a{
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 2%;
+}
+header button{
+    background-color: #00FF00;
+    position: static;
+    left: 10px;
+    float:right;
+    padding: 10px;
+}
+
+.aboutus{
+    background-color: #FFF2CC;
+}
+h2 a{
+    color:black;
+    text-decoration: none;
+}
+.aboutus p{
+    margin: 20px;
+}
+
+.whychooseus{
+    background-color: #DAE8FC;
+}
+
+.card{
+    display: inline-block;
+    width: 355px;
+}
+
+.services{
+    background-color: #ffffff;
+}
+
+.products{
+    background-color: #FFFFFF;
+}
+
+.product{
+    display: inline-block;
+    width: 600px;
+}
+
+.prize{
+    color: #009900;
+}
+
+.usualquestions{
+    background-color: #B1DDF0;
+}
+.uquestion{
+    width: 97%;
+    background-color: white;
+    border: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 97%;
+    text-align: left;
+    border: none;
+    margin-left: 20px;
+}
+.uanswer{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #0000FF;
+    padding: 30px;
+}
+footer h1{
+    color:#ffffff;
+    display: inline;
+    text-align: left;
+}
+footer #location{
+    display: inline-block;
+    text-align: center;
+    margin-left: 30%;
+}
+footer #contact{
+    display: inline-block;
+    text-align: center;
+    margin-left: 25%;
+}
