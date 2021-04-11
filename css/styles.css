@@ -1,25 +1,50 @@
 header{
     background-color: #1EB6FF;
-    display: block;
-    padding: 30px;
+    overflow: hidden;
+    padding: 20px 10px;
+    text-align: center;
 }
-header h1{
+/*header .logo{
     color:#ffffff;
-    display: inline;
-    text-align: left;
+    text-align: center;
+    display: flex;
+    float:left;
 }
+header .logo h1{
+    margin-top: 40px;
+}*/
 header a{
     color: #000000;
     text-decoration: none;
     text-align: center;
+    margin-top: 40px;
     margin-right: 2%;
 }
 header button{
     background-color: #00FF00;
-    position: static;
-    left: 10px;
-    float:right;
-    padding: 10px;
+    margin-left:25%;
+    width:150px;
+    height:50px;
+    margin-top: 30px;
+}
+header button:hover{
+    background-color: #00c900;
+    color:#FFFFFF;
+}
+header button span{
+    transition:0.5s;
+}
+header button:hover span:before{
+    content: '>>';
+    margin-right: 5px;
+}
+header button:hover span:after{
+    content: '<<';
+    margin-left: 5px;
+}
+header img{
+    height: 100px;
+    width: auto;
 }
 
 .aboutus{
@@ -39,9 +64,15 @@ h2 a{
     background-color: #DAE8FC;
 }
 
-.card{
+.cart{
     display: inline-block;
-    width: 355px;
+    width: 300px;
+    border-style: solid;
+    text-align: center;
+    height: 200px;
+    overflow: hidden;
+    margin-left:3%;
+    padding: 2%;
 }
 
 .services{
@@ -56,6 +87,11 @@ h2 a{
 .product{
     display: inline-block;
     width: 600px;
+    margin-left:5%;
+}
+.product img{
+    width: 200px;
+    height: auto;
 }
 
 .prize{
@@ -72,12 +108,17 @@ h2 a{
     border: 1px solid black;
     cursor: pointer;
     padding: 18px;
-    width: 97%;
     text-align: left;
     margin-left: 20px;
 }
+.active, .uquestion:hover{
+    background-color: #DDDDDD;
+}
 .uanswer{
-    padding: 0 18px;
+    background-color: #e8f8f6;
+    padding: 12px;
+    width: 97%;
+    margin-left: 20px;
     display: none;
     overflow: hidden;
 }
@@ -85,11 +126,17 @@ h2 a{
 footer{
     background-color: #0000FF;
     padding: 30px;
+    color:#FFFFFF;
+    text-align:center;
 }
 footer h1{
     color:#ffffff;
     display: inline;
     text-align: left;
+}
+footer img{
+    height: 100px;
+    width: auto;
 }
 footer #location{
     display: inline-block;
@@ -100,4 +147,49 @@ footer #contact{
     display: inline-block;
     text-align: center;
     margin-left: 25%;
+}
+.ModalMap{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.Modal-content{
+    position: relative;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: appear;
+    -webkit-animation-duration: 0.4s;
+    animation-name: appear;
+    animation-duration: 0.4s
+}
+@-webkit-keyframes appear {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  @keyframes appear {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+.ModalMap .close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.ModalMap .close:hover, .close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }

@@ -7,16 +7,30 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     </head>
     <body>
         <header>
-            <img src="img/logo.png" style="text-align:left;">
-            <h1>MedTec</h1>
-            <a href="#" style="margin-left: 20%;">¿Quienes somos?</a>
-            <a href="#">Preguntas frecuentes</a>
-            <a href="#">Productos y servicios</a>
-            <a href="#">Contacto</a>
-            <button>INGRESAR</button>
+            <div class=row>
+                <div class="col" style="display:inline-flex;">
+                    <img src="img/logo_head..jpg">
+                    <h1 style="color:#FFFFFF;margin-top:20px;">MedTec</h1>
+                </div>
+                <div class="col-md-6" style="display: flex;">
+                    <a href="#" >¿Quienes somos?</a>
+                    <a href="#">Preguntas frecuentes</a>
+                    <a href="#">Productos y servicios</a>
+                    <a href="#">Contacto</a>
+                </div>
+                <div class="col">
+                    <button><span>INGRESAR</span></button>
+                </div>
+            </div>
         </header>
         <div id="aboutus" class="aboutus">
             <h2><a href="#">¿Quienes Somos?</a></h2>
@@ -24,19 +38,19 @@
         </div>
         <div id="whychooseus" class="whychooseus">
             <h2><a href="#">¿Por que elegirnos?</a></h2>
-            <div id="card" class="card">
+            <div id="card" class="cart" style="background-color: #0050EF; border-color: #001DBC; color:#FFFFFF">
                 <h4>Seguridad</h4>
                 <p>Garantizamos la proteccion de los datos sensibles de los pacientes (Ley 25.723)</p>
             </div>
-            <div id="card" class="card">
+            <div id="card" class="cart" style="background-color: #60A917; border-color: #2D7600; color:#000000">
                 <h4>Confiabilidad</h4>
                 <p>Nuestra empresa cuenta con el cumplimiento de estándares internacionales</p>
             </div>
-            <div id="card" class="card">
+            <div id="card" class="cart" style="background-color: #FA6800; border-color: #C73500; color:#000000">
                 <h4>Disponibilidad</h4>
                 <p>Los datos que almacenamos siempre se encuentra a disposición de nuestros clientes</p>
             </div>
-            <div id="card" class="card">
+            <div id="card" class="cart" style="background-color: #ffffff; border-color: #000000; color:#000000">
                 <h4>Amigabilidad</h4>
                 <p>Trabajamos en conjunto con especialistas  que permiten la creación de software amigable con el usuario</p>
             </div>
@@ -114,17 +128,55 @@
             </div>
         </div>
         <footer>
-            <img src="img/logo.png">
-            <h1>MedTec</h1>
-            <div id="location">
-                <h6>¿Donde enconrarnos?</h6>
-                <p>Av. Rivadavia 130, La Rioja, Argentina, CP: 5300</p>
-            </div>
-            <div id="contact">
-                <h6>Contacto</h6>
-                <p>Telefono: +543804773355</p>
-                <p>Email: info@medtec.com</p>
+            <div class="row">
+                <div class="col">
+                    <img src="img/logo_foot.jpg">
+                    <h1>MedTec</h1>
+                </div>
+                <div class="col">
+                    <h6>¿Donde enconrarnos?</h6>
+                    <p>Av. Rivadavia 130, La Rioja, Argentina, CP: 5300</p>
+                    <a id="AppMap">VER MAPA</a>
+                    <div id="ModalMap" class="ModalMap">
+                        <div class="Modal-content">
+                            <span class="close">&times;</span>
+                            <div id="mapid" style="width: auto; height: 300px;"></div>
+                            <script>
+                                var mymap = L.map('mapid').setView([29.4139618,-66.8495211], 13);
+                                L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=uwmWiCzg3J5WYZqNIzYj', {
+                                    attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
+                                    maxZoom: 18,
+                                    id: 'mapbox/streets-v11',
+                                    tileSize: 512,
+                                    zoomOffset: -1,
+                                    accessToken: 'your.mapbox.access.token'
+                                }).addTo(mymap);
+                                var marker=L.marker([29.4139618,-66.8495211]).addTo(mymap);
+                                var circle = L.circle([51.508, -0.11], {
+                                    color: 'red',
+                                    fillColor: '#f03',
+                                    fillOpacity: 0.5,
+                                    radius: 500
+                                }).addTo(mymap);
+                                var polygon = L.polygon([
+                                    [51.509, -0.08],
+                                    [51.503, -0.06],
+                                    [51.51, -0.047]
+                                ]).addTo(mymap);
+                                marker.bindPopup("<b>¡Estamos Aquí!</b>").openPopup();
+                                circle.bindPopup("I am a circle.");
+                                polygon.bindPopup("I am a polygon.");
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>Contacto</h6>
+                    <p>Telefono: +543804773355</p>
+                    <p>Email: info@medtec.com</p>
+                </div>
             </div>
         </footer>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
