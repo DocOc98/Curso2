@@ -138,15 +138,13 @@ footer img{
     height: 100px;
     width: auto;
 }
-footer #location{
-    display: inline-block;
-    text-align: center;
-    margin-left: 30%;
+footer a.mapa{
+    color:#FF0000;
+    text-decoration: wavy;
 }
-footer #contact{
-    display: inline-block;
-    text-align: center;
-    margin-left: 25%;
+footer a:hover{
+    color:#00FFFF;
+    text-decoration:underline;
 }
 .ModalMap{
     display: none; 
