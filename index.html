@@ -134,7 +134,7 @@
                     <h1>MedTec</h1>
                 </div>
                 <div class="col">
-                    <h6>¿Donde enconrarnos?</h6>
+                    <h6>¿Donde encontrarnos?</h6>
                     <p>Av. Rivadavia 130, La Rioja, Argentina, CP: 5300</p>
                     <a id="AppMap" class="mapa">VER MAPA</a>
                     <div id="ModalMap" class="ModalMap">
@@ -142,7 +142,7 @@
                             <span class="close">&times;</span>
                             <div id="mapid" style="width: auto; height: 300px;"></div>
                             <script>
-                                var mymap = L.map('mapid').setView([29.4139618,-66.8495211], 13);
+                                var mymap = L.map('mapid').setView([-29.4140659,-66.8517629], 17);
                                 L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=uwmWiCzg3J5WYZqNIzYj', {
                                     attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
                                     maxZoom: 18,
@@ -151,21 +151,8 @@
                                     zoomOffset: -1,
                                     accessToken: 'your.mapbox.access.token'
                                 }).addTo(mymap);
-                                var marker=L.marker([29.4139618,-66.8495211]).addTo(mymap);
-                                var circle = L.circle([51.508, -0.11], {
-                                    color: 'red',
-                                    fillColor: '#f03',
-                                    fillOpacity: 0.5,
-                                    radius: 500
-                                }).addTo(mymap);
-                                var polygon = L.polygon([
-                                    [51.509, -0.08],
-                                    [51.503, -0.06],
-                                    [51.51, -0.047]
-                                ]).addTo(mymap);
+                                var marker=L.marker([-29.4140659,-66.8517629]).addTo(mymap);
                                 marker.bindPopup("<b>¡Estamos Aquí!</b>").openPopup();
-                                circle.bindPopup("I am a circle.");
-                                polygon.bindPopup("I am a polygon.");
                             </script>
                         </div>
                     </div>
@@ -179,4 +166,3 @@
         </footer>
         <script src="js/scripts.js"></script>
     </body>
-</html>
